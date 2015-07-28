@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.camera.MainActivity"
+    android:orientation="vertical">
+    
+   
+                 
+       
+     
+     <ScrollView 
+       android:layout_width="match_parent"
+       android:layout_height="300sp"
+       android:scrollbarAlwaysDrawVerticalTrack="true"
+       >  
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+     
+     <ImageView
+        android:id="@+id/img"
+        android:padding="0sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camart"
+        android:adjustViewBounds="true"
+        tools:ignore="ContentDescription" />
+     
+    </LinearLayout>
+    </ScrollView>
+   
+    
+     
+     <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:padding="20sp"
+        android:text="CAPTURE"
+        android:background="#000000"
+        android:textColor="#22ffcc"
+        tools:ignore="HardcodedText" />
+        
+    
+    
+</LinearLayout>
+
